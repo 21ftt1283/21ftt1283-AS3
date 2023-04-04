@@ -1,6 +1,3 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-</script>
 <script src="https://cdn.tailwindcss.com"></script>
 
 
