@@ -1,11 +1,19 @@
-<script src="https://cdn.tailwindcss.com"></script>
-
+<script setup>
+import HelloWorld from './components/HelloWorld.vue'
+</script>
 
 <template>
+  <div class="middle">
+    <img class="logo" src="DSC_0496.JPG"/>
+  </div>
+
   <div>
-    <!-- INPUT YOUR STUFF HERE -->
+    <h2>Nur Amal Yasarah binti Awang Yahya</h2>
+    <p>21FTT1283</p>
+    <p>Level 5 Diploma in Web Development</p>
   </div>
 </template>
+
 
 <style scoped>
 .logo {
@@ -19,5 +27,15 @@
 }
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
+}
+.middle {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 1.5em;
+  line-height: 1.1;
+  font-weight: bold;
 }
 </style>
